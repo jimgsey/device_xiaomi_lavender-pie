@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/lavender
+TARGET_USES_MKE2FS := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
