@@ -267,6 +267,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
 
+# Lawnchair
+PRODUCT_PACKAGES += \
+    Lawnchair \
+    LawnConf
+
+# Lawnfeed
+PRODUCT_PACKAGES += \
+    Lawnfeed
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_lavender
@@ -313,6 +322,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
+
+# Phonograph
+PRODUCT_PACKAGES += \
+    Phonograph
 
 # Power
 PRODUCT_PACKAGES += \
