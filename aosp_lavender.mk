@@ -20,6 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from lavender device
+EXTENDED_BUILD_TYPE=FAN-EDITION
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common AEX stuff.
