@@ -43,9 +43,6 @@ BUILD_FINGERPRINT := "xiaomi/lavender/lavender:9/PKQ1.180904.001/V10.3.6.0.PFGMI
 
 TARGET_VENDOR := Xiaomi
 
-# Use Jelly
-TARGET_USE_JELLY := true
-
 # Set this flag in build script
 ifeq ($(CURRENT_BUILD_TYPE), gapps)
 # Use Gapps
